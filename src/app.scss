@@ -1,0 +1,172 @@
+@import './assets/fonts/alexandrapersonal/alexandrapersonal.css';
+@import './assets/fonts/cera/cera.css';
+@import './assets/fonts/roboto/roboto.css';
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  background: #16203C;
+}
+
+// h1,h2,h3,h4 {
+//   font-family: 'CeraGR', sans-serif;
+// }
+
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+
+  @media (min-width: 768px){
+    font-size: 45px;
+  }
+
+  @media (min-width: 991px){
+    font-size: 50px;
+  }
+  @media (min-width: 1200px){
+    font-size: 58px;
+  }
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+
+  @media (min-width: 768px){
+    font-size: 35px;
+  }
+
+  @media (min-width: 991px){
+    font-size: 40px;
+  }
+  @media (min-width: 1200px){
+    font-size: 42px;
+  }
+
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 30px;
+  padding: 0;
+  transition: all .4s ease;
+
+  a {
+    color: #fff;
+    padding: 10px 35px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'CeraGR', sans-serif;
+
+    &:active,
+    &:focus {
+      color: #fff;
+    }
+  }
+
+  &_default,
+  &_red {
+    background: #D40000;
+    text-align: center;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: 1.5px solid #D40000;
+    color: #fff;
+    padding: 10px 35px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'CeraGR', sans-serif;
+    transition: all .4s ease;
+
+    &:hover,
+    &:focus {
+      background: #fff;
+      border: 1.5px solid #fff;
+      color: #D40000;
+      transition: all .4s ease;
+    }
+
+    a {
+      &:focus,
+      &:hover {
+        color: #fff;
+      }
+    }
+    
+
+
+    
+  }
+
+  &_blue {
+    text-align: center;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background: #154068;
+    border: 1.5px solid #7c9bd1;
+    color: #fff;
+    padding: 10px 35px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'CeraGR', sans-serif;
+    transition: all .4s ease;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      text-decoration: none;
+      background: #7c9bd1;
+      transition: all .4s ease;
+    }
+  }
+}
+
+
+.fancy_title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+
+  span {
+    font-weight: normal;
+    font-family: 'Alexandra Personal Use', sans-serif;
+  }
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+.blue {
+  color: #5b6f9c;
+}
+
+
+
+
+
+

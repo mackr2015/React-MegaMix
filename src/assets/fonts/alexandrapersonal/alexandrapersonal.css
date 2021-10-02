@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Alexandra Personal Use';
+    src: url('AlexandraPersonalUse-Regular.woff2') format('woff2'),
+        url('AlexandraPersonalUse-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
